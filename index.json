@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "repositoryName": "whisperbox-basecamp",
-  "generatedAt": "2026-08-20T21:24:55Z",
+  "generatedAt": "2026-08-20T21:29:44Z",
   "packages": [
     {
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-08-20T21:24:55Z",
+          "releasedAt": "2026-08-20T21:29:44Z",
           "publisherRef": "delivery_module-v0.2.3",
           "url": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/catalog-v0.1.0/logos-delivery_module-module-v0.2.3.lgx",
           "size": 21803223,
@@ -39,7 +39,7 @@
       "name": "whisperbox",
       "versions": [
         {
-          "releasedAt": "2026-08-20T21:24:55Z",
+          "releasedAt": "2026-08-20T21:29:44Z",
           "publisherRef": "whisperbox-v0.1.0",
           "url": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/catalog-v0.1.0/logos-whisperbox-module.lgx",
           "size": 14330,
@@ -73,12 +73,12 @@
       "name": "whisperbox_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T21:24:55Z",
+          "releasedAt": "2026-08-20T21:29:44Z",
           "publisherRef": "whisperbox_core-v0.1.0",
           "url": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/catalog-v0.1.0/logos-whisperbox_core-module-lib.lgx",
-          "size": 4152287,
-          "sha256": "56496a00874ae6439b91de0e2acc8adfd60f2850e4c3c9366b0ae1a0b00c2e8a",
-          "rootHash": "248a49b1327e5366e228f3f78c208b5f0ada5204294489416a1de3c2b3903605",
+          "size": 4152479,
+          "sha256": "90392fba0ed4526ff401b32ff9b0e981af40649765bd21180977bc16b3d5e39f",
+          "rootHash": "842970ff9b43e423e27aed7c046fcdba452b34e57508b5221deb4728c08560d9",
           "manifest": {
             "author": "",
             "category": "social",
@@ -87,9 +87,9 @@
             ],
             "description": "WhisperBox privacy-first forms core: append-only event log over one shared delivery topic, secp256k1 identity + ECIES response sealing to form creators, HLC-ordered CRDT merge with creator-view decryption. Runs headless under logoscore and behind the whisperbox ui_qml view.",
             "hashes": {
-              "root": "248a49b1327e5366e228f3f78c208b5f0ada5204294489416a1de3c2b3903605",
-              "variants": "79679be40deefccd6b615cf7582421d1f7cda33bbb4abcfa6ff653061586c0bc",
-              "variants/linux-amd64": "4910ea85447651f760ec7af566be883b5df440f61037b22e95b6e2ab150320aa"
+              "root": "842970ff9b43e423e27aed7c046fcdba452b34e57508b5221deb4728c08560d9",
+              "variants": "90370be64be430b98c31275326d5bac7724b0f3cb86eafb700b050da004b01dc",
+              "variants/linux-amd64": "bb3c8c57ae1e1739a1fc2debd866b10d88521862922ad6628058b2804a0234cb"
             },
             "icon": "",
             "main": {
