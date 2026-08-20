@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "repositoryName": "whisperbox-basecamp",
+  "generatedAt": "2026-08-20T21:24:55Z",
+  "packages": [
+    {
+      "name": "delivery_module",
+      "versions": [
+        {
+          "releasedAt": "2026-08-20T21:24:55Z",
+          "publisherRef": "delivery_module-v0.2.3",
+          "url": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/catalog-v0.1.0/logos-delivery_module-module-v0.2.3.lgx",
+          "size": 21803223,
+          "sha256": "df672718b974dccb061845716f643095d3dd01649be0a53ac6e26117c8c4f5cf",
+          "rootHash": "c3637b41461e3984bb0b4873277800dcd7b5aac9b8e59868ab62c7c8133a0854",
+          "manifest": {
+            "author": "Logos Core Team",
+            "category": "protocol",
+            "dependencies": [],
+            "description": "Logos Delivery Module - High-level message-delivery API",
+            "hashes": {
+              "root": "c3637b41461e3984bb0b4873277800dcd7b5aac9b8e59868ab62c7c8133a0854",
+              "variants": "0059d6e31619b71b7a08c7ea9bed77b5ffe7c4705b71871068f12e297d14a0d8",
+              "variants/linux-amd64": "b007d5da29540e5cd6d4e7168851c52686025b3352a8ac6c6b00846e1d01dc20"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "delivery_module_plugin.so"
+            },
+            "manifestVersion": "0.3.0",
+            "name": "delivery_module",
+            "type": "core",
+            "version": "0.2.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "whisperbox",
+      "versions": [
+        {
+          "releasedAt": "2026-08-20T21:24:55Z",
+          "publisherRef": "whisperbox-v0.1.0",
+          "url": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/catalog-v0.1.0/logos-whisperbox-module.lgx",
+          "size": 14330,
+          "sha256": "19a1dd53c763b0e6b0c268082dbfd2450e5b782ffe2b19215914efea6446e494",
+          "rootHash": "e82561e018255da3b8a2c522d7dfff49f1fa46a53143c4cc793fc80095610280",
+          "manifest": {
+            "author": "",
+            "category": "social",
+            "dependencies": [
+              "whisperbox_core"
+            ],
+            "description": "Privacy-first encrypted forms over Waku. Create forms, share a URI/QR, respondents answer end-to-end sealed to the creator only; the creator decrypts, confirms and exports CSV. Pure-QML view over the whisperbox_core module.",
+            "display_name": "WhisperBox - Encrypted Forms",
+            "hashes": {
+              "root": "e82561e018255da3b8a2c522d7dfff49f1fa46a53143c4cc793fc80095610280",
+              "variants": "3b7f783dba0e6c9ecaa88029159e29c795f1e34c38133ca1095f0d9c4bdfe068",
+              "variants/linux-amd64": "e453d36ba04c6f758d2470835d8af0e9257524ac0f47f9457609abc5f2f2ff80"
+            },
+            "icon": "icon.png",
+            "main": {},
+            "manifestVersion": "0.3.0",
+            "name": "whisperbox",
+            "type": "ui_qml",
+            "version": "0.1.0",
+            "view": "Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "whisperbox_core",
+      "versions": [
+        {
+          "releasedAt": "2026-08-20T21:24:55Z",
+          "publisherRef": "whisperbox_core-v0.1.0",
+          "url": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/catalog-v0.1.0/logos-whisperbox_core-module-lib.lgx",
+          "size": 4152287,
+          "sha256": "56496a00874ae6439b91de0e2acc8adfd60f2850e4c3c9366b0ae1a0b00c2e8a",
+          "rootHash": "248a49b1327e5366e228f3f78c208b5f0ada5204294489416a1de3c2b3903605",
+          "manifest": {
+            "author": "",
+            "category": "social",
+            "dependencies": [
+              "delivery_module"
+            ],
+            "description": "WhisperBox privacy-first forms core: append-only event log over one shared delivery topic, secp256k1 identity + ECIES response sealing to form creators, HLC-ordered CRDT merge with creator-view decryption. Runs headless under logoscore and behind the whisperbox ui_qml view.",
+            "hashes": {
+              "root": "248a49b1327e5366e228f3f78c208b5f0ada5204294489416a1de3c2b3903605",
+              "variants": "79679be40deefccd6b615cf7582421d1f7cda33bbb4abcfa6ff653061586c0bc",
+              "variants/linux-amd64": "4910ea85447651f760ec7af566be883b5df440f61037b22e95b6e2ab150320aa"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "whisperbox_core_plugin.so"
+            },
+            "manifestVersion": "0.3.0",
+            "name": "whisperbox_core",
+            "type": "core",
+            "version": "0.1.0"
+          }
+        }
+      ]
+    }
+  ]
+}
