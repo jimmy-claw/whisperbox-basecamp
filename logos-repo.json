@@ -4,6 +4,6 @@
   "displayName": "WhisperBox (public)",
   "description": "Public Basecamp catalog for WhisperBox - privacy-first E2E-encrypted forms over Waku. Ships the whisperbox view, the whisperbox_core engine module, and the delivery_module transport it syncs over.",
   "homepage": "https://github.com/jimmy-claw/whisperbox-basecamp",
-  "indexUrl": "https://raw.githubusercontent.com/jimmy-claw/whisperbox-basecamp/main/index.json",
+  "indexUrl": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/index/index.json",
   "trustedSigners": []
 }
