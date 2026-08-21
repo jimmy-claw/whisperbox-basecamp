@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
   "repositoryName": "whisperbox-basecamp",
-  "generatedAt": "2026-08-21T09:51:31Z",
+  "generatedAt": "2026-08-21T12:48:17Z",
   "packages": [
     {
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-08-21T09:51:31Z",
+          "releasedAt": "2026-08-21T12:48:17Z",
           "publisherRef": "delivery_module-v0.2.3",
-          "url": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/catalog-v0.1.1/logos-delivery_module-module-v0.2.3.lgx",
+          "url": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/catalog-v0.1.2/logos-delivery_module-module-v0.2.3.lgx",
           "size": 21803223,
           "sha256": "df672718b974dccb061845716f643095d3dd01649be0a53ac6e26117c8c4f5cf",
           "rootHash": "c3637b41461e3984bb0b4873277800dcd7b5aac9b8e59868ab62c7c8133a0854",
@@ -39,12 +39,12 @@
       "name": "whisperbox",
       "versions": [
         {
-          "releasedAt": "2026-08-21T09:51:31Z",
-          "publisherRef": "whisperbox-v0.1.1",
-          "url": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/catalog-v0.1.1/logos-whisperbox-module.lgx",
-          "size": 14570,
-          "sha256": "c30e165afe417efe1a7913891cc4c0385ec9a804c2f5de06f4af0fc1a9764b05",
-          "rootHash": "095b156053134539c63483d723f8127f9c7515702f6a4384c4d1ca2e1566f09a",
+          "releasedAt": "2026-08-21T12:48:17Z",
+          "publisherRef": "whisperbox-v0.1.2",
+          "url": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/catalog-v0.1.2/logos-whisperbox-module.lgx",
+          "size": 14890,
+          "sha256": "d0ac4f09ecc609d2c33e09dd8db74c4780fdd8d813e1d09d85c9bc653f27b1bd",
+          "rootHash": "70ceef072779564728663fc14403608852bb34340b639345968b8112d14cdd0b",
           "manifest": {
             "author": "",
             "category": "social",
@@ -54,16 +54,16 @@
             "description": "Privacy-first encrypted forms over Waku. Create forms, share a URI/QR, respondents answer end-to-end sealed to the creator only; the creator decrypts, confirms and exports CSV. Pure-QML view over the whisperbox_core module.",
             "display_name": "WhisperBox - Encrypted Forms",
             "hashes": {
-              "root": "095b156053134539c63483d723f8127f9c7515702f6a4384c4d1ca2e1566f09a",
-              "variants": "f8d331008f7d968425d922255057eddd0b534c5a2b16b88125c96b9a80f997d2",
-              "variants/linux-amd64": "aa919d8e4e1794e74f2d2ceab121bbd686640721ae2cc577bb5ecb3862af9f2e"
+              "root": "70ceef072779564728663fc14403608852bb34340b639345968b8112d14cdd0b",
+              "variants": "b84e721ddfd7be69b09ead794e8da50c458f0e9f6d9a585f5bebbd08e46fcfcb",
+              "variants/linux-amd64": "cdf30ffd52e635189ef1ddddfe4f12219bc261c14a439c36da4dc7d7f5153dc1"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "whisperbox",
             "type": "ui_qml",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "view": "Main.qml"
           }
         }
@@ -73,9 +73,9 @@
       "name": "whisperbox_core",
       "versions": [
         {
-          "releasedAt": "2026-08-21T09:51:31Z",
+          "releasedAt": "2026-08-21T12:48:17Z",
           "publisherRef": "whisperbox_core-v0.1.1",
-          "url": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/catalog-v0.1.1/logos-whisperbox_core-module-lib.lgx",
+          "url": "https://github.com/jimmy-claw/whisperbox-basecamp/releases/download/catalog-v0.1.2/logos-whisperbox_core-module-lib.lgx",
           "size": 4152610,
           "sha256": "1d93901adf5ce498059ec2600c51367fe928d246e16b65cffca73015923e2a72",
           "rootHash": "1acbd57d883b67edf757272e177e17c76930dd3eb7b3d9a36ac6baa68be543ad",
